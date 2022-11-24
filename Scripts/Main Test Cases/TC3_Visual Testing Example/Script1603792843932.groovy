@@ -24,7 +24,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
  * https://forum.katalon.com/t/update-with-katalon-studio-7-7-early-release-of-katalon-testops-visual-testing-image-comparison/45557.
  */
 
-WebUI.openBrowser(null)
+
 
 WebUI.comment('Story: Book an appointment')
 
