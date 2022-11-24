@@ -9,6 +9,7 @@ class TestListener {
 	 */
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
+		WebUI.openBrowser(GlobalVariable.G_SiteURL)
 		KatalonHelper.updateInfo()
 	}
 }
