@@ -21,11 +21,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 
+WebUI.takeScreenshot();
+
 WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+
+WebUI.takeScreenshot();
 
 WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 
+WebUI.takeScreenshot();
+
 WebUI.click(findTestObject('Page_Login/btn_Login'))
+
+WebUI.takeScreenshot();
 
 landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
 
