@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
+
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 
 WebUI.takeScreenshot();
